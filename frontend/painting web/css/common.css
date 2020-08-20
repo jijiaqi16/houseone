@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    margin: 25px auto;
+    width: 1200px;
+}
+/*use like .header.menu could find construction easily*/
+
+.header .menu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: 80px;
+    opacity: 0.7;
+    background-color: white;
+}
+.header .logo {
+    float: left;
+    position: relative;
+}
+.header .menu {
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+.header .menu ul li {
+    margin-top: 13px;
+    text-align: center;
+}
+.header .menu .menu_title {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 80px;
+    text-align: center;
+}
+/*disappear the underline of link*/
+
+a {
+    text-decoration: none;
+}
+.header .auth {
+    float: right;
+}
+/*list-style make the dot before disappear*/
+
+.header .auth ul li {
+    float: left;
+    margin-right: 70px;
+    margin-top: 15px;
+    list-style: none;
+}
+/*0 auto always in the center*/
+
+.content {
+    width: 1200px;
+    margin: 25px auto;
+}
+.content .banner .banner-img {
+    margin-top: 20px;
+}
+.content .img-content ul {
+    width: 1280px;
+}
+.content .img-content ul li {
+    width: 361px;
+    float: left;
+    margin: 0 59px 60px 0;
+    list-style: none;
+    /*set border*/
+    margin-top: 30px;
+    height: 500px;
+    box-shadow: 0px 0px 3px 3px #ccc;
+    background-color: white;
+    /*chrome browser and firefox browser coulf recognize*/
+    -webkit-box-shadow: 0px 0px 3px 3px #ccc;
+    -moz-box-shadow: 0px 0px 3px 3px #ccc;
+}
+.img-content .info .img-btn {
+    width: 300px;
+}
+/*make picture center use text-align*/
+
+.img-content .info .img-btn .btn {
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+}
+.img-content .info .img-btn .cart .btn img {
+    width: 25px;
+    height: 20px;
+    margin-top: 5px;
+}
+.img-content .info .img-btn .price {
+    float: left;
+    color: red;
+    font-size: 20px;
+}
+.info h3 {
+    font-size: 25px;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*also could sue > replace */
+.img-content>ul>li>.info p {
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.content .info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+body {
+    background-color: #F5F5F5;
+}
+.page-nav ul li {
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+/*overflow:hide could avoid height collapse by float*/
+.page-nav {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+}
+.page-nav ul {
+    margin: auto;
+    overflow: hidden;
+    width: 550px;
+}
+.first-page {
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    padding: 3px 9px;
+}
+
+.footer{
+	width: 1200px;
+	height: 100px;
+	margin: 60px auto;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 80px;
+}
+
+.footer span{
+	color: #ff1493;
+}
+/*.menu{
+	background-color: red;
+}*/
+
+/*menu folding*/
+
+/*.header .menu:hover ul{
+	display: block;
+}
+*/

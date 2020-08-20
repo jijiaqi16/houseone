@@ -1,0 +1,4 @@
+3、Sublime CodeIntel =代码自动提示
+4、Bracket Highlighter =代码匹配
+16、Alignment =代码对齐
+17、Emmet =生成html
