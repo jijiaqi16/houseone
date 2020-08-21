@@ -1,0 +1,543 @@
+* {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+body {
+    width: 100%;
+    margin-bottom: 0px;
+}
+.top {
+    width: 100%;
+    height: 65px;
+    line-height: 60px;
+    background-color: #07cbc9;
+    overflow: hidden;
+}
+.top .title {
+    width: 260px;
+    margin-left: 50px;
+    float: left;
+}
+.top .title img {
+    height: 48px;
+    width: 260px;
+    vertical-align: middle;
+}
+.top .btn ul {
+    height: 65px;
+    list-style: none;
+    float: right;
+    margin-right: 25px;
+    vertical-align: middle
+}
+.top .btn ul li {
+    height: 65px;
+    float: left;
+    margin-right: 5px;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+.top .btn ul li:hover {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Microsoft YaHei UI;
+    font-size: 12px;
+}
+.banner {
+    width: 100%;
+}
+.banner .banner-image {
+    width: 100%;
+    background: url("E:/study/Sublime Text 3/js/career web/images/banner3.jpg");
+    position: relative;
+    background-size: 100% 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+.banner .banner-image .banner-image-mask {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+.banner .banner-image .banner-image-mask .table {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner .banner-image .banner-image-mask .table ul {
+    list-style: none;
+    position: relative;
+    top: 100px;
+}
+.banner .banner-image .banner-image-mask .table ul li {
+    margin-bottom: 20px;
+}
+.banner .banner-image .banner-image-mask .table ul li input[type=text] {
+    width: 350px;
+    height: 25px;
+    background-color: transparent;
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Microsoft YaHei UI;
+}
+.banner .banner-image .banner-image-mask .table ul li input[type=text]:hover {
+    border-color: #07cbc9;
+}
+.banner .banner-image .banner-image-mask .table ul li textarea {
+    width: 350px;
+    height: 75px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Microsoft YaHei UI;
+}
+.banner .banner-image .banner-image-mask .table ul li textarea:hover {
+    border-color: #07cbc9;
+}
+.banner .banner-image .banner-image-mask .table ul li input[type=button] {
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+    background-color: transparent;
+    border-style: solid;
+    color: white;
+    font-family: Microsoft YaHei UI;
+}
+.banner .banner-image .banner-image-mask .table ul li input[type=button]:hover {
+    border-style: none;
+    background-color: #07cbc9;
+}
+.about {
+    width: 100%;
+}
+.about .about-top {
+    text-align: center;
+    margin: 0 auto;
+    width: 580px;
+    position: relative;
+    top: 30px;
+}
+.about .about-top h1 {
+    font-family: Microsoft YaHei UI;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about .about-top .underline1 {
+    background-color: #07cbc9;
+    height: 2px;
+    width: 25px;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+.about .about-top p {
+    font-family: Microsoft YaHei UI;
+    font-size: 13px;
+}
+.about .about-middle {
+    margin: 25px auto;
+    width: 400px;
+    position: relative;
+    top: 30px;
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/bb3.jpg");
+    height: 300px;
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.about .about-middle .about-middle-left {
+    width: 350px;
+    height: 272px;
+    /*        background-color: blue;
+*/
+    margin-left: -260px;
+    float: left;
+}
+.about .about-middle .about-middle-left .WORD {
+    font-size: 25px;
+    font-family: Microsoft YaHei UI;
+    margin-left: 80px;
+}
+.about .about-middle .about-middle-left .ABOUT {
+    font-size: 25px;
+    font-family: Microsoft YaHei UI;
+    margin-left: 70px;
+}
+.about .about-middle .about-middle-left .tran-box {
+    width: 280px;
+    height: 190px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 60px;
+    box-shadow: -1px -1px 1px 0px rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.about .about-middle .about-middle-left .tran-box p {
+    font-family: Microsoft YaHei UI;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.about .about-middle .about-middle-left .tran-box input[name="button2"] {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: Microsoft YaHei UI;
+}
+.about .about-middle .about-middle-left .tran-box input[name="button2"]:hover {
+    background-color: white;
+    color: black;
+}
+.about .about-middle .about-middle-right {
+    /*    background-color: green;
+*/
+    width: 250px;
+    height: 300px;
+    float: left;
+    position: relative;
+    left: 330px;
+    text-align: center;
+}
+.about .about-middle .about-middle-right .student {
+    width: 80%;
+    height: 100px;
+    margin-top: 0px;
+    border: 2px solid #07cbc9;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.about .about-middle .about-middle-right .student .stu-num {
+    font-size: 25px;
+    font-family: Microsoft YaHei UI;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.about .about-middle .about-middle-right .student .stu-line {
+    height: 2px;
+    background-color: #07cbc9;
+    width: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 18px;
+}
+.about .about-middle .about-middle-right .student .stu {
+    font-size: 16px;
+    font-family: Microsoft YaHei UI;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+.about .about-middle .about-middle-right .faculty {
+    width: 80%;
+    height: 100px;
+    margin-top: 0px;
+    border: 2px solid #07cbc9;
+    padding-top: 10px;
+}
+.about .about-middle .about-middle-right .faculty .fac-num {
+    font-size: 25px;
+    font-family: Microsoft YaHei UI;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.about .about-middle .about-middle-right .faculty .fac-line {
+    height: 2px;
+    background-color: #07cbc9;
+    width: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 18px;
+}
+.about .about-middle .about-middle-right .faculty .fac {
+    font-size: 16px;
+    font-family: Microsoft YaHei UI;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+.about .about-bottom {
+    width: 100%;
+    position: relative;
+    top: 60px;
+    height: 600px;
+}
+.about .about-bottom .top-one {
+    width: 25%;
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/b1.jpg");
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+.about .about-bottom .top-two {
+    width: 25%;
+    background-color: #07cbc9;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.about .about-bottom .top-three {
+    width: 25%;
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/b2.jpg");
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+.about .about-bottom .top-four {
+    width: 25%;
+    background-color: #07cbc9;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.about .about-bottom .bottom-one {
+    width: 25%;
+    background-color: #07cbc9;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.about .about-bottom .bottom-two {
+    width: 25%;
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/b3.jpg");
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+.about .about-bottom .bottom-three {
+    width: 25%;
+    background-color: #07cbc9;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.about .about-bottom .bottom-four {
+    width: 25%;
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/b4.jpg");
+    background-size: cover;
+    height: 300px;
+    float: left;
+}
+.about .about-bottom h2 {
+    color: white;
+    font-family: Microsoft YaHei UI;
+    font-weight: lighter;
+}
+.about .about-bottom .p1 {
+    color: white;
+    font-family: Microsoft YaHei UI;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.about .about-bottom .p2 {
+    color: white;
+    font-family: Microsoft YaHei UI;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.about .about-bottom input[name="button3"] {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: Microsoft YaHei UI;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 77.5px;
+    top: 20px;
+}
+.about .about-bottom input[name="button3"]:hover {
+    background-color: transparent;
+}
+.gallery {
+    width: 100%;
+    height: 810px;
+    /*        background-color: orange;
+*/
+    position: relative;
+    top: 90px;
+}
+.gallery .gallery-top {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    /*    background-color: purple;
+*/
+}
+.gallery .gallery-top h1 {
+    font-family: Microsoft YaHei UI;
+    font-size: 30px;
+    font-weight: bold;
+}
+.gallery .gallery-top .underline2 {
+    background-color: #07cbc9;
+    height: 2px;
+    width: 25px;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+.gallery .gallery-top p {
+    font-family: Microsoft YaHei UI;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.gallery .gallery-bottom {
+    position: relative;
+    top: 20px;
+    width: 60%;
+    /*    background-color: grey;
+*/
+    margin: 0 auto;
+}
+.gallery .gallery-bottom .gal-pic1 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-01.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+}
+.gallery .gallery-bottom .gal-pic2 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-02.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+}
+.gallery .gallery-bottom .gal-pic3 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-03.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left
+}
+.gallery .gallery-bottom .gal-box1 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+.gallery .gallery-bottom .gal-box2 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+.gallery .gallery-bottom .gal-box3 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.gallery .gallery-bottom .gal-pic4 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-04.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+.gallery .gallery-bottom .gal-pic5 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-05.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+.gallery .gallery-bottom .gal-pic6 {
+    background-image: url("E:/study/Sublime Text 3/js/career web/images/03-06.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-top: 30px;
+}
+
+.gallery .gallery-bottom .gal-box4 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+
+.gallery .gallery-bottom .gal-box5 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+
+.gallery .gallery-bottom .gal-box6 {
+    background-color: black;
+    width: 30%;
+    height: 50px;
+    float: left;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+
+.footer{
+	width: 100%;
+	background-color:#07cbc9; 
+	text-align: center;
+	height: 50px;
+	position: relative;
+	top: 13px;
+	margin-bottom: 0px;
+	line-height: 50px;
+	color: white;
+	font-family: Microsoft YaHei UI;
+	font-size: 13px;
+	font-weight: lighter;
+}
